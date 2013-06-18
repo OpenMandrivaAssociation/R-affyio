@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.26.0
-Release:          1
+Release:          2
 Summary:          Tools for parsing Affymetrix data files
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
