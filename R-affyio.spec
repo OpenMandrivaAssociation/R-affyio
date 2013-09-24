@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.26.0
-Release:          2
+Version:          1.28.0
+Release:          1
 Summary:          Tools for parsing Affymetrix data files
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/affyio_1.26.0.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/affyio_1.28.0.tar.gz
 Requires:         R-methods 
 Requires:         R-zlibbioc 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
@@ -44,3 +44,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
