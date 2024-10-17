@@ -7,7 +7,7 @@ Release:          1
 Summary:          Tools for parsing Affymetrix data files
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/affyio_1.28.0.tar.gz
 Requires:         R-methods 
 Requires:         R-zlibbioc 
